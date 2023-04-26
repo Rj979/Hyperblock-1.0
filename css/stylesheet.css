@@ -1,3 +1,4 @@
+
 * {
 	box-sizing: border-box;
 }
@@ -41,7 +42,7 @@ p {
 }
 
 .logo img {
-	width: 170px; /* Change image size for mobile */
+	width: 100px; /* Change image size for mobile */
 	-webkit-animation-name: logo;
 	        animation-name: logo;
 	-webkit-animation-duration: 5s;
@@ -160,7 +161,7 @@ p {
 
 @media(min-width: 400px) {
 	.logo img {
-		width: 210px; /* Change image size for mid sized devices */
+		width: 180px; /* Change image size for mid sized devices */
 	}
 
 	.playercount {
@@ -183,7 +184,7 @@ p {
 	}
 
 	.logo img {
-		width: 390px; /* Change image size for desktop */
+		width: 200px; /* Change image size for desktop */
 	}
 
 	.logo {
@@ -212,8 +213,8 @@ p {
 @media(min-width: 1000px) {
 	.items {
 		-webkit-box-pack: center;
-		    -ms-flex-pack: center;
-		        justify-content: center;
+			-ms-flex-pack: center;
+				justify-content: center;
 	}
 
 	.item:not(:first-child) {
