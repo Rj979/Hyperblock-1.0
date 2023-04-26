@@ -108,6 +108,10 @@ p {
 	padding: 0;
 }
 
+.particles-js-canvas-el {
+	filter: brightness(200%);
+}
+
 .ip {
 	cursor: pointer;
 }
