@@ -1,5 +1,5 @@
 // If you don't want the particles, change the following to false
-const doParticles = True;
+const doParticles = true;
 
 
 
