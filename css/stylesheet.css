@@ -1,10 +1,11 @@
-
 * {
 	box-sizing: border-box;
 }
 
 body {
-
+	/*Want to change background image?*/
+	/*Upload a new one to the img folder.*/
+	/*Make sure you name it 'minecraft.jpg'*/
 	background: linear-gradient(rgba(20, 26, 35,0.55),rgba(20, 26, 35, 0.55)),
 				url("../img/minecraft.jpg") no-repeat center center fixed;
 	background-size: cover;
@@ -42,7 +43,7 @@ p {
 }
 
 .logo img {
-	width: 100px; /* Change image size for mobile */
+	width: 225px; /* Change image size for mobile */
 	-webkit-animation-name: logo;
 	        animation-name: logo;
 	-webkit-animation-duration: 5s;
@@ -108,10 +109,6 @@ p {
 	padding: 0;
 }
 
-.particles-js-canvas-el {
-	filter: brightness(200%);
-}
-
 .ip {
 	cursor: pointer;
 }
@@ -165,7 +162,7 @@ p {
 
 @media(min-width: 400px) {
 	.logo img {
-		width: 180px; /* Change image size for mid sized devices */
+		width: 280px; /* Change image size for mid sized devices */
 	}
 
 	.playercount {
@@ -188,7 +185,7 @@ p {
 	}
 
 	.logo img {
-		width: 200px; /* Change image size for desktop */
+		width: 470px; /* Change image size for desktop */
 	}
 
 	.logo {
@@ -217,8 +214,8 @@ p {
 @media(min-width: 1000px) {
 	.items {
 		-webkit-box-pack: center;
-			-ms-flex-pack: center;
-				justify-content: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
 	}
 
 	.item:not(:first-child) {
