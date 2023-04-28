@@ -79,16 +79,9 @@
 
 		<div class="playercount">
 
-		<p>Join <span class="sip" data-ip="46.4.94.213">46.4.94.213</span>:</p>
-
-		<p class="count">
-			<?php 
-				$serverIp = "46.4.94.213"; // Enter your server IP here
-				$serverPort = 45847; // Enter your server port here
-				$onlinePlayers = json_decode(file_get_contents("https://api.minetools.eu/ping/$serverIp:$serverPort/"), true)['players']['online']; // Fetches the number of players online
-				echo "<span id=\"count\">" . $onlinePlayers . "</span> players online"; // Displays the number of players online
-			?>
-		</p>
+			<p>Join <span class="sip" data-ip="46.4.94.213" data-port="45847">
+			</span> other players on <span class="ip">46.4.94.213:45847</span></p>
+		</div>
 
 		<div class="button">
 			<a href="https://scv-start.pages.dev/" target="_blank" rel="noopener noreferrer">Start the server</a>
